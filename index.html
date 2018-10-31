@@ -44,6 +44,11 @@
     <!-- *Begin Header-->
     <div>
       <label>Name:</label>
+      <body>
+        <i class="fas fa-ghost"></i> <!-- this icon's 1) style prefix == fas and 2) icon name == ghost -->
+<i class="fas fa-ghost"></i> <!-- using an <i> element to reference the icon -->
+<span class="fas fa-ghost"></span> <!-- using a <span> element to reference the icon -->
+</body>
       <input type="text" ng-model="yourName" placeholder="Enter a name here">
       <hr>
       <h1>Hello {{yourName}}!</h1>
